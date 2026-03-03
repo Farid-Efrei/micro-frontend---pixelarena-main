@@ -14,6 +14,9 @@ function App() {
 
   return (
     <div className="app">
+      <header style={{textAlign: 'center', padding: '1rem'}}>
+        <h1>Shell opérationnel</h1>
+      </header>
       <Navbar notifications={notifications} />
       <main className="main-content">
         <Lobby onJoinGame={handleJoinGame} />
